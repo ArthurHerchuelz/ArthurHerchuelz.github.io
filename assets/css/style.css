@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Partie Texte de bienvenue*/
 .welcome{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,3 +44,36 @@ form{
 .imgContact{
     max-width:70%;
 }
+=======
+/* HEADER */
+header {
+  height: 250px;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+.hiddenBlock {
+  background-color: #B9B5B5;
+}
+.smRow {
+  font-size: 1em;
+}
+.smRow #imgTel {
+  width: 1em;
+  height: 1em;
+}
+.smRow #imgMail {
+  width: 1em;
+  height: 1em;
+}
+#imgTel {
+  width: 2.5em;
+  height: 2.5em;
+}
+a {
+  color: black;
+}
+nav {
+  background-color: #FFF3E2;
+}
+>>>>>>> arthur
