@@ -74,3 +74,11 @@ a {
 nav {
   background-color: #FFF3E2;
 }
+/*Footer*/
+.imgSocialMedia{
+    max-width:7%;
+}
+
+footer{
+    background-color: #B9B5B5;
+}
