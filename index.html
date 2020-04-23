@@ -14,11 +14,11 @@
     <!-- Bannière -->
     <div class="container-fluid text-weight-bold h-100 p-0">
       <!-- Ligne invisible a partir des écran md -->
-      <div class="row d-md-none hiddenBlock">
+      <div class="row d-md-none hiddenBlock w-100 m-0">
         <div class="col-6 smRow">
           <img alt="phone" src="assets/images/pictotel.png" id="imgTel"/> <a class="text-dark"href="tel:+33600000000"><small>06.00.00.00.00</small></a>
         </div>
-        <div class="col-6 smRow">
+        <div class="col-6 smRow text-right p-0">
           <img alt="mail" src="assets/images/pictomail.png" id="imgMail"/> <a class="text-dark"href="mailto:mrhavre-art@hotmail.com"><small>mrhavre-art@hotmail.com</small></a>
         </div>
       </div>
@@ -33,35 +33,36 @@
           <img alt="phone" src="assets/images/pictotel.png" id="imgTel"/> <a class="text-dark"href="tel:+33600000000">06.00.00.00.00</a>
         </div>
       </div>
-      <!-- Barre de navigation -->
-      <nav class="navbar navbar-expand-md navbar-light p-0">
-        <ul class="navbar-nav row w-100 text-center font-weight-bold text-dark">
-          <li class="nav-item col-md-2 lg-2 col-sm12 col-xs-12">
-            <a class="nav-link" href="#">Accueil</a>
-          </li>
-          <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
-            <a class="nav-link" href="#">Réalisations</a>
-          </li>
-          <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
-            <a class="nav-link" href="#">Expositions</a>
-          </li>
-          <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item col-md-4 col-lg-4 col-sm12 col-xs-12">
-            <form class="form-inline my-2 my-lg-0 justify-content-center m-2">
-              <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
-              <button class="btn btn-outline-dark bg-light my-2 my-sm-0" type="submit">Rechercher</button>
-            </form>
-          </li>
-        </ul>
-      </nav>
+
     </div>
   </header>
   <main>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-md navbar-light p-0">
+      <ul class="navbar-nav row w-100 text-center font-weight-bold text-dark p-3">
+        <li class="nav-item col-md-2 lg-2 col-sm12 col-xs-12">
+          <a class="nav-link" href="#">Accueil</a>
+        </li>
+        <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
+          <a class="nav-link" href="#">Réalisations</a>
+        </li>
+        <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
+          <a class="nav-link" href="#">Expositions</a>
+        </li>
+        <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item col-md-4 col-lg-4 col-sm12 col-xs-12">
+          <form class="form-inline my-2 my-lg-0 justify-content-center m-2">
+            <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
+            <button class="btn btn-outline-dark bg-light my-2 my-sm-0" type="submit">Rechercher</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
     <section class="slider">
       <!-- Carousel -->
-      <div class="container-fluid">
+      <div class="container-fluid p-0">
         <div id="carouselEntete" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -79,11 +80,11 @@
     </section>
     <section class="Welcome">
       <!-- Bienvenue chez Mobil'art -->
-      <div class="container-fluid welcome text-center mt-5 mb-5">
-        <h2 class="font-weight-bold">BIENVENUE CHEZ MOBIL'ART !</h2>
-        <p>Mobil'art est une entreprise havraise qui design et crée vos meubles entièrement à la main depuis 2012 !</br>
+      <div class="container welcome text-center mt-3">
+        <h2 class="font-weight-bold m-4">BIENVENUE CHEZ MOBIL'ART !</h2>
+        <p class="p-3">Mobil'art est une entreprise havraise qui design et crée vos meubles entièrement à la main depuis 2012 !</br>
           Nous tâchons d'utiliser le plus de matériaux de récupération afin de vous proposer des réalisations les plus éco responsables possible.</br>
-          Ainsi vous retrouverez dans nos créations divers objet que l'on peut rencontrer au quotidien , de l'ancienne voile de bateau,</br>
+          Ainsi vous retrouverez dans nos créations divers objet que l'on peut rencontrer au quotidien , de l'ancienne voile de bateau,
           au simple bois flotté venu s'échouer sur nos plages. Ainsi, toutes les pièces qui sortent de notre entreprise sont uniques !</p>
         </div>
       </section>
@@ -95,11 +96,11 @@
           une autre de 5 pour mettre le texte, et deux de 2 qui sont vides pour englober le texte et arriver à un total de 12)-->
           <!--Ligne 1-->
           <div class="row mt-5 mb-5">
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
               <img src="assets/images/bancboisflotte.jpg" class="img-fluid realisationImg" alt="Banc fait en bois flotté"/>
             </div>
-            <div class="col-1"></div>
-            <div class="col-5 text-center pt-5">
+            <div class="col-md-1 col d-none d-md-block"></div>
+            <div class="col-md-5 col-sm-12 text-center pt-5">
               <h4 class="font-weight-bold mt-3 mb-4">Le Banc des naufragés </h4>
               <p class="realisationText p-1">
                 On raconte que ce banc fût apporté par la mer lors d'une des tempêtes hivernales.
@@ -110,12 +111,13 @@
                 ayant utilisé ce banc.
               </p>
             </div>
-            <div class="col-1"></div>
+            <div class="col-md-1 col d-none d-md-block">
+            </div>
           </div>
           <!--Ligne 2-->
           <div class="row mt-5 mb-5">
-            <div class="col-1"></div>
-            <div class="col-5 text-center pt-5">
+            <div class="d-none d-md-block"></div>
+            <div class="col-md-5 col-sm-12 text-center pt-5">
               <h4 class="font-weight-bold mt-3 mb-4">Cocooning</h4>
               <p class="realisationText p-1">
                 Cette pièce s'incorporera parfaitement dans votre salle de bain, vous rappellant vos dernières vacances à la campagne .
@@ -124,16 +126,16 @@
                 Un moment détente , qui ne vous donnera pas envie de quitter votre salle de bain de sitôt !
               </p>
             </div>
-            <div class="col-1"></div>
-            <div class="col-5">
+            <div class="col-md-1 col d-none d-md-block"></div>
+            <div class="col-md-5 col-sm-12">
               <img src="assets/images/meublesdb.jpg" class="img-fluid realisationImg" alt="Meuble de salle de bain en bois avec un lavabo incrusté"/>
             </div>
           </div>
           <!--Ligne 3-->
           <div class="row mt-5 mb-5">
-            <div class="col-5"><img src="assets/images/banquetteboisflotte.jpg" class="img-fluid realisationImg" alt="Barque transformée en banquette"/></div>
-            <div class="col-1"></div>
-            <div class="col-5 text-center pt-5">
+            <div class="col-md-5 col-sm-12"><img src="assets/images/banquetteboisflotte.jpg" class="img-fluid realisationImg" alt="Barque transformée en banquette"/></div>
+            <div class="col-md-1 col d-none d-md-block"></div>
+            <div class="col-md-5 col-sm-12 text-center pt-5">
               <h4 class="font-weight-bold mt-3 mb-4">Au fil des rêves</h4>
               <p class="realisationText p-1">
                 Cette réalisation dont l'armature est une ancienne barque a nécessité  90 heures de travail afin de remettre en état le
@@ -148,47 +150,47 @@
       </section>
       <section class="exposition">
         <!-- Expositions -->
-        <div class="container-fluid">
-          <h2 class="font-weight-bold text-center mt-5 mb-5">EXPOSITIONS</h2>
-          <p class="expoText">Nos oeuvres seront exposées prochainement lors de plusieurs grands salons de l'ameublement :</p>
+        <div class="container">
+          <h2 class="font-weight-bold text-center mt-5 mb-5 p-2">EXPOSITIONS</h2>
+          <p class="expoText text-center">Nos oeuvres seront exposées prochainement lors de plusieurs grands salons de l'ameublement :</p>
           <!--Grid Bootstrap de 3 lignes composées de 3 colonnes (une de 8 pour le texte,
           une de 1 pour la séparation texte/image et une de 3 pour l'image)-->
           <!--Ligne 1-->
           <div class="row mt-5 mb-5">
-            <div class="col-8 pt-5 text-center">
+            <div class="col-md-8 col-sm-12 pt-5 text-center">
               <p class="expoText">Salon Maison & Objets - Paris Nord 2 Villepinte </br>
                 Du 05 au 07 juin 2020</br>
                 Hall 5B / Stand H28
               </p>
             </div>
             <div class="col-1 expo"></div>
-            <div class="col-3 p-4">
+            <div class="col-md-3 col-sm-12 p-4">
               <img src="assets/images/expom&o.jpg" class="img-fluid expoImg" alt="Intérieur du salon Maison & Objets"/>
             </div>
           </div>
           <!--Ligne 2-->
           <div class="row mt-5 mb-5">
-            <div class="col-8 pt-5 text-center">
+            <div class="col-md-8 col-sm-12 pt-5 text-center">
               <p class="expoText">Salon Esprit Meubles - Paris Porte de Versailles </br>
                 Du 03 au 05 juillet 2020</br>
                 Hall 2 / Stand B41
               </p>
             </div>
             <div class="col-1 expo"></div>
-            <div class="col-3 p-4">
+            <div class="col-md-3 col-sm-12 p-4">
               <img src="assets/images/expoespritmeubles.jpg" class="img-fluid expoImg mw-100" alt="Intérieur du salon Esprit Meubles"/>
             </div>
           </div>
           <!--Ligne 3-->
           <div class="row mt-5 mb-5">
-            <div class="col-8 pt-5 text-center">
+            <div class="col-md-8 col-sm-12 pt-5 text-center">
               <p class="expoText">Salon IFFS (International Fair Funiture Singapore) - Singapour </br>
                 Du 25 au 3 juillet 2020</br>
                 Hall 4 / Stand D20
               </p>
             </div>
             <div class="col-1 expo"></div>
-            <div class="col-3 p-4">
+            <div class="col-md-3 col-sm-12 p-4">
               <img src="assets/images/expoiffs.jpg" class="img-fluid expoImg" alt="Intérieur du salon IFFS"/>
             </div>
           </div>
@@ -201,7 +203,7 @@
           et trois de 2 pour les icônes de contact) -->
           <div class="row">
             <!--Formulaire de contact-->
-            <div class="col-5">
+            <div class="col-md-5 col-sm-12">
               <form class="border border-dark rounded p-5 contactForm">
                 <p class="contactText">Contactez nous</p>
                 <div class="form-group">
@@ -225,17 +227,17 @@
             </div>
             <div class="col-1"></div>
             <!--Icones de contact-->
-            <div class="col-2 mt-5 pt-5">
+            <div class="col-md-2 mt-5 pt-5 d-none d-md-block">
               <a href="tel:+33600000000">
                 <img alt="phone" src="assets/images/pictotel.png" class="imgContact pt-5 mt-2">
               </a>
             </div>
-            <div class="col-2 mt-5 pt-5">
+            <div class="col-md-2 mt-5 pt-md-5 pt-sm-0">
               <a href="https://bit.ly/2ydmx7k" target="blank">
-                <img alt="Maps" src="assets/images/maps.png" class="imgContact pt-5 mt-5">
+                <img alt="Maps" src="assets/images/maps.png" class="imgContact pt-md-5 pt-sm-0 mt-md-5 mt-sm-0">
               </a>
             </div>
-            <div class="col-2 mt-5 pt-5">
+            <div class="col-md-2 mt-5 pt-5 d-none d-md-block">
               <a href="mailto:mrhavre-art@hotmail.com">
                 <img alt="mail" src="assets/images/pictomail.png" class="imgContact pt-5 mt-2">
               </a>
