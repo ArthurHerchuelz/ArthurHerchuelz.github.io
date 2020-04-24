@@ -85,8 +85,6 @@ iframe {
 
 footer{
   background-color: #B9B5B5;
-<<<<<<< HEAD
-
 }
 /* page contact> */
 .formContainer {
@@ -106,10 +104,9 @@ background-color: #fff3E2;
 =======
 }
 
-@media (max-width: 991.98px) { 
+@media (max-width: 991.98px) {
   .realisationText{
     background-color:#ffffff;
     box-shadow:none;
   }
 }
->>>>>>> f8434917d0f129114d2b0297e47e49a186d1ac1f
