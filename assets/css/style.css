@@ -85,4 +85,20 @@ iframe {
 
 footer{
   background-color: #B9B5B5;
+
+}
+/* page contact> */
+.formContainer {
+  background-color: #FFF3E2;
+}
+.contactIcon {
+  width: 3em;
+  height: 3em;
+}
+/* Mentions légales */
+#fond{
+background-color: #fff3E2;
+}
+#h1Mention {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

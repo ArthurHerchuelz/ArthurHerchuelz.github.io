@@ -33,7 +33,6 @@
           <img alt="phone" src="assets/images/pictotel.png" id="imgTel"/> <a class="text-dark"href="tel:+33600000000">06.00.00.00.00</a>
         </div>
       </div>
-
     </div>
   </header>
   <main>
@@ -41,16 +40,16 @@
     <nav class="navbar navbar-expand-md navbar-light p-0">
       <ul class="navbar-nav row w-100 text-center font-weight-bold text-dark p-3">
         <li class="nav-item col-md-2 lg-2 col-sm12 col-xs-12">
-          <a class="nav-link" href="#">Accueil</a>
+          <a class="nav-link" href="index.html">Accueil</a>
         </li>
         <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
-          <a class="nav-link" href="#">Réalisations</a>
+          <a class="nav-link" href="réalisation.html">Réalisations</a>
         </li>
         <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
           <a class="nav-link" href="#">Expositions</a>
         </li>
         <li class="nav-item col-md-2 col-lg-2 col-sm12 col-xs-12">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </li>
         <li class="nav-item col-md-4 col-lg-4 col-sm12 col-xs-12">
           <form class="form-inline my-2 my-lg-0 justify-content-center m-2">
@@ -78,33 +77,112 @@
         </div>
       </div>
     </section>
-
-
-    
-    </main>
-    <footer>
-      <!-- Icons réseaux sociaux + Mentions légales -->
-      <div class="container-fluid">
-        <div clas="row mt-5">
-          <div class="col text-center">
-            <a href="https://bit.ly/2xkfDgE" target="blank">
-              <img alt="Instagram" src="assets/images/instagram.png" class="imgSocialMedia mr-2 mt-4"/>
-            </a>
-            <a href="https://bit.ly/3ekPXAR" target="blank">
-              <img alt="Pinterest" src="assets/images/pinterest.png" class="imgSocialMedia ml-2 mt-4"/>
-            </a>
+    <!-- Formulaire + icons -->
+    <div class="container shadow-sm formContainer">
+      <!--Section: Contact v.2-->
+      <section class="mb-4">
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4 pt-2">Contactez nous</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Vous avez la moindre questions?  N'hésitez pas à nous contacter directement. Notre équipe se tient à votre service pour vous aider.</p>
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label class="pt-1" for="name" class="">Nom</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                  </div>
+                </div>
+                <!--Grid column-->
+                <!--Grid column-->
+                <div class="col-md-6">
+                  <div class="md-form mb-0">
+                    <label class="pt-1" for="email" class="">Adresse Email</label>
+                    <input type="text" id="email" name="email" class="form-control">
+                  </div>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="md-form mb-0">
+                    <label class="pt-1" for="subject" class="">Sujet</label>
+                    <input type="text" id="subject" name="subject" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12">
+                  <div class="md-form">
+                    <label class="pt-1" for="message">Votre Message</label>
+                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                  </div>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+            <div class="text-center text-md-left pt-1 pb-1">
+              <a class="btn btn-light" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+            </div>
+            <div class="status"></div>
           </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-3 text-center pt-4">
+            <ul class="list-unstyled mb-0">
+              <li class="mb-3"><i class="fas fa-map-marker-alt fa-2x"></i>
+                <img class="contactIcon" src="assets/images/maps.png" alt="googleMapIcon">
+                <p>Le Havre, 56 rue de Paris, France</p>
+              </li>
+              <li class="mb-3"><i class="fas fa-phone mt-4 fa-2x"></i>
+                <img class="contactIcon" src="assets/images/pictotel.png" alt="phoneIcon">
+                <p>06.00.00.00.00</p>
+              </li>
+              <li class="mb-3"><i class="fas fa-envelope mt-4 fa-2x"></i>
+                <img class="contactIcon" src="assets/images/pictomail.png" alt="mailIcon">
+                <p>mrhavre-art@hotmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+      </section>
+      <!--Section: Contact v.2-->
+    </div>
+  </main>
+  <footer>
+    <!-- Icons réseaux sociaux + Mentions légales -->
+    <div class="container-fluid">
+      <div clas="row mt-5">
+        <div class="col text-center">
+          <a href="https://bit.ly/2xkfDgE" target="blank">
+            <img alt="Instagram" src="assets/images/instagram.png" class="imgSocialMedia mr-2 mt-4"/>
+          </a>
+          <a href="https://bit.ly/3ekPXAR" target="blank">
+            <img alt="Pinterest" src="assets/images/pinterest.png" class="imgSocialMedia ml-2 mt-4"/>
+          </a>
         </div>
       </div>
       <div class="row m-sm-5">
-        <div class="col text-center font-weight-bold">Mentions Légales</div>
+        <div class="col text-center font-weight-bold"><a class="text-dark" href="mentionslégales.html">Mentions Légales</a></div>
       </div>
       <div class="row mt-sm-5">
         <div class="col text-center">&copy;Mobil'Art</div>
       </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/usm/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384- wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
-  </html>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/usm/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384- wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
