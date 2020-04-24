@@ -86,3 +86,10 @@ iframe {
 footer{
   background-color: #B9B5B5;
 }
+
+@media (max-width: 991.98px) { 
+  .realisationText{
+    background-color:#ffffff;
+    box-shadow:none;
+  }
+}
